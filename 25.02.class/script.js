@@ -1,7 +1,7 @@
 
-let ques = prompt('Кто пришел?', '');
+let ques = prompt('Кто пришел?');
 if(ques == 'Admin'){
-    let pass = prompt('Пароль?', '');
+    let pass = prompt('Пароль?');
     if(pass == 'hello'){
         alert('Добро пожаловать!');
     }
