@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    width: 664px;
+    height: 606px;
+    background-color: #FFFFFF;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 40px 24px;
+}
+.title{
+    font-family: Sora, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.subtitle{
+    font-family: Sora, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    color: #000000;
+    margin-bottom: 16px;
+}
+.input1{
+    height: 48px;
+    width: 200px;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    margin-right: 2px;
+    padding-left: 16px;
+    margin-bottom: 16px;
+}
+.title2{
+    font-family: Sora, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.input2{
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 200px;
+    height: 48px;
+    margin-bottom: 16px;
+    margin-right: 2px;
+}
+.input3{
+    width: 408px;
+    height: 48px;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    margin-right: 2px;
+}
+.input4{
+    width: 408px;
+    height: 48px;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+.btn{
+    width: 384px;
+    height: 48px;
+    background: #232529;
+    border-radius: 4px;
+    margin-left: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    font-family: Sora, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
