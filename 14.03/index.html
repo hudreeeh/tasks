@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="page1">
+        <div class="box1">
+            <h1 class="title">Анкета для корпоративных клиентов</h1>
+            <p class="subtitle">Личные данные</p>
+            <form action="javascript:void(0)">
+                <input id="user-surname" type="text" placeholder="Фамилия" class="input1 val">
+                <input id="user-name" type="text" placeholder="Имя" class="input1 val">
+                <input id="user-otec" type="text" placeholder="Отчество " class="input1">
+            
+            <h2 class="title2">Паспортные данные</h2>
+            
+                <input id="user-date" type="date" class="input2">
+                <input id="user-address" type="text" class="input3" placeholder="Место проживания по прописке">
+                <input id="user-serial" type="text" class="input2 val" placeholder="Серийный номер AN/ID">
+                <input id="user-inn" type="text" class="input2 val" placeholder="ИНН">
+                <input id="user-date2" type="date" class="input2">
+                <input id="user-numb" type="number" class="input2 val" placeholder="Контактный номер">
+                <input id="user-email" type="email" class="input2" placeholder="Электронный адрес">
+                <select name="" id="bank" class="input2">
+                    <option value="0" class="input2">Наименование банка</option>
+                    <option value="1" class="input2">Optima</option>
+                    <option value="2" class="input2">KICB</option>
+                </select>
+                <input id="user-fact" type="text" class="input4" placeholder="Фактическое место проживания">
+                <input id="btn" type="submit" value="Далее" class="btn link">
+                <div class="notification" id="model"></div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

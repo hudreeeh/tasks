@@ -6,10 +6,10 @@ const showNotification = (options) => {
     model.classList.add(options.className);
     model.classList.add('d-block');
     setTimeout(hideNotification, 1500);
-    model.style.backgroundColor = '#d3d3d4';
-    model.style.color = '#141619';
+    model.style.backgroundColor = '#f8d7da';
+    model.style.color = '#842029';
     model.style.borderRadius = '4px';
-    model.style.borderColor = '#bcbebf';
+    model.style.borderColor = '#f5c2c7';
 }
 
 const hideNotification = () => {
@@ -17,7 +17,7 @@ const hideNotification = () => {
 }
 
 openBtn.addEventListener('click', ()=>{
-    showNotification({html:'Hello world', className:'welcome'});
+    showNotification({html:'Пожалуйста введите данные в полях Фамилия, Имя, Серийный номер и ИНН', className:'welcome'});
 });
 
 //! для первого блока
