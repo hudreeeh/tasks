@@ -32,20 +32,14 @@ form.onsubmit = (event) => {
         model2.style.color = '#842029';
         model2.style.borderRadius = '4px';
         model2.style.borderColor = '#f5c2c7';
-        model2.textContent = 'Пожалуйста введите данные в полях Фамилия, Имя, Серийный номер и ИНН';
+        model2.textContent = 'Пожалуйста введите данные в полях Данные о ваших доходах';
     }
     const hideNotification2 = () => {
         model2.classList.remove('d-block')
     }
-    if(orgName == ''){
-        showNotification2();
-    } if(userRank == ''){
-        showNotification2();
-    } if(userSalary == ''){
-        showNotification2();
-    } if(userSalary2 == ''){
+    if(orgName == '' || userRank == '' || userSalary == '' || userSalary2 == ''){
         showNotification2();
     } else{
-        console.log(credit);
+        window.localStorage.setItem('credit', JSON.stringify(credit));
     }
 }

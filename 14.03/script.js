@@ -42,18 +42,11 @@ form.onsubmit = (event) => {
     const hideNotification = () => {
         model.classList.remove('d-block')
     }
-    if(userSurname == ''){
-        showNotification();
-    } if(userName == ''){
-        showNotification();
-    } if(userSerial == ''){
-        showNotification();
-    } if(userInn == ''){
-        showNotification();
-    } if(userNumb == ''){
+    if(userSurname == '' || userName == '' || userSerial == '' || userInn == '' || userNumb == ''){
         showNotification();
     } else{
         console.log(user);
+        window.localStorage.setItem('user', JSON.stringify(user));
         window.location.href = 'index2.html';
     }
 }
